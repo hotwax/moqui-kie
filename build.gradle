@@ -61,7 +61,7 @@ dependencies {
     runtimeOnly 'org.mvel:mvel2:2.3.2.Final'
     runtimeOnly module('com.thoughtworks.xstream:xstream:1.4.21')
     runtimeOnly 'xpp3:xpp3_min:1.1.4c' // leave out xmlpull here
-    runtimeOnly 'com.google.protobuf:protobuf-java:3.4.0'
+    runtimeOnly 'com.google.protobuf:protobuf-java:3.25.8'
     // NOTE: drools java dialect options include ECLIPSE, JANINO, and NATIVE; NATIVE would be good but broken now with Java 8
     // using older version of Janino (2.5.16) as it is the latest version Drools supports
     runtimeOnly 'org.codehaus.janino:janino:2.5.16' // New BSD
